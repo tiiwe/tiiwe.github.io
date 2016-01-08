@@ -2643,9 +2643,9 @@
 		}
 
 		.wrapper.style1 {
-			width:"500px";
-			height:expression(document.body.clientheight>500?"500px":"auto");
-			background-image: url("images/all.jpg");
+			width:expression(document.body.clientheight>500?"1000px":"auto");
+			height:expression(document.body.clientheight>500?"1000px":"auto");
+			//background-image: url("images/.jpg");
 			opacity:0.6;
 			'color: #c7ebe8;
 		}
