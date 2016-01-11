@@ -2498,12 +2498,13 @@
 	}
 
 		.spotlight .image {
+			top:100px;
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
-			order: 1;
-			border-radius: 0;
-			width: 40%;
+			order: 2;
+			border-radius: 3;
+			width: 60%;
 		}
 
 			.spotlight .image img {
@@ -2621,7 +2622,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		height:1000px;
+		
 	}
 
 		.spotlight2 .image {
@@ -2630,7 +2631,7 @@
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 80%;
 			height:1000px;
 		}
 
