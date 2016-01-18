@@ -1492,7 +1492,7 @@
 
 	h2 {
 	line-height: 2.75em;
-	font-family: "標楷體";
+	font-family: "微軟正黑體";
 	font-size: xx-large;
 	
 	}
@@ -2631,14 +2631,14 @@
 	}
 
 		.spotlight2 .image {
-			top:150px;
+			/*top:150px;*/
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 80%;
-			height:60%;
+			/*width: 80%;
+			height:60%;*/
 			
 		}
 
