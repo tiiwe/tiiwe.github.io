@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		 
 		
 	}
 
@@ -1477,6 +1478,12 @@
 	p2 {
 	margin: 0 0 2em 0;
 	text-align: right;
+		}
+	p3{
+		margin:0 0 2em 0;
+		text-align:left;
+		font-family: "微軟正黑體";
+		font-size: x-large;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
