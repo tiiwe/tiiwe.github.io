@@ -9,15 +9,13 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,h7, p, p2, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		 
-		
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1470,21 +1468,8 @@
 	}
 
 	p {
-	margin: 0 0 2em 0;
-	text-align: center;
-	font-family: "微軟正黑體";
-	font-size: x-large;
+		margin: 0 0 2em 0;
 	}
-	p2 {
-	margin: 0 0 2em 0;
-	text-align: right;
-		}
-	p3{
-		margin:0 0 2em 0;
-		text-align:left;
-		font-family: "微軟正黑體";
-		font-size: x-large;
-		}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
@@ -1501,17 +1486,9 @@
 		}
 
 	h2 {
-	line-height: 2.75em;
-	font-family: "微軟正黑體";
-	font-size: xx-large;
-	
+		font-size: 1.35em;
+		line-height: 1.75em;
 	}
-	h7{
-	line-height: 1.5 em;
-	font-family: "微軟正黑體";
-	font-size: xx-large;
-	}
-		
 
 		@media screen and (max-width: 736px) {
 
@@ -1959,7 +1936,6 @@
 /* Image */
 
 	.image {
-		width:50%;
 		border-radius: 3px;
 		border: 0;
 		display: inline-block;
@@ -1984,7 +1960,7 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 100%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -2520,13 +2496,12 @@
 	}
 
 		.spotlight .image {
-			
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
-			order: 2;
-			border-radius: 3;
-			width: 60%;
+			order: 1;
+			border-radius: 0;
+			width: 40%;
 		}
 
 			.spotlight .image img {
@@ -2633,137 +2608,6 @@
 			}
 
 		}
-/*spotlight2*/
-
-	.spotlight2 {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		
-	}
-
-		.spotlight2 .image {
-			/*top:150px;*/
-			-moz-order: 1;
-			-webkit-order: 1;
-			-ms-order: 1;
-			order: 1;
-			border-radius: 0;
-			/*width: 80%;
-			height:60%;*/
-			
-		}
-
-			.spotlight2 .image img {
-				border-radius: 0;
-				width: 100%;
-				;
-			}
-
-		.spotlight2 .content {
-			padding: 2em 4em 0.1em 4em ;
-			-moz-order: 2;
-			-webkit-order: 2;
-			-ms-order: 2;
-			order: 2;
-			max-width: 48em;
-			width: 60%;
-		}
-
-		.spotlight2:nth-child(2n) {
-			-moz-flex-direction: row-reverse;
-			-webkit-flex-direction: row-reverse;
-			-ms-flex-direction: row-reverse;
-			flex-direction: row-reverse;
-		}
-
-		.spotlight2:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
-		}
-
-		.spotlight2:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
-		}
-
-		.spotlight2:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
-		}
-
-		.spotlight2:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
-		}
-
-		.spotlight2:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
-		}
-
-		.spotlight2:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
-		}
-
-		.spotlight2:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
-		}
-
-		.spotlight2:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
-		}
-
-		.spotlight2:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
-		}
-
-		.spotlight2:nth-child(10) {
-			background-color: rgba(0, 0, 0, 0.75);
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			.spotlight2 .image {
-				width: 45%;
-			}
-
-			.spotlight2 .content {
-				width: 55%;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.spotlight2 {
-				display: block;
-			}
-
-				.spotlight2 br {
-					display: none;
-				}
-
-				.spotlight2 .image {
-					width: 100%;
-				}
-
-				.spotlight2 .content {
-					padding: 4em 3em 2em 3em ;
-					max-width: none;
-					text-align: center;
-					width: 100%;
-				}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.spotlight2 .content {
-				padding: 3em 2em 1em 2em ;
-			}
-
-		}
 
 /* Wrapper */
 
@@ -2797,11 +2641,8 @@
 		}
 
 		.wrapper.style1 {
-			width:expression(document.body.clientheight>500?"1000px":"auto");
-			height:expression(document.body.clientheight>500?"1000px":"auto");
-			//background-image: url("images/.jpg");
-			opacity:0.6;
-			'color: #c7ebe8;
+			background-color: #21b2a6;
+			color: #c7ebe8;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2829,8 +2670,7 @@
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
-	border-color: rgba(0, 0, 0, 0.125);
-	color: #C13D3F;
+				border-color: rgba(0, 0, 0, 0.125);
 			}
 
 			.wrapper.style1 header.major p {
@@ -2957,11 +2797,7 @@
 		.wrapper.style2 {
 			background-color: #2e3842;
 		}
-		.wrapper.style21 {
-			background-color: #fffff;
-			color: #fffff;
-						
-		}
+
 		.wrapper.style3 {
 			background-color: #505393;
 			color: #d3d4e4;
@@ -3441,12 +3277,10 @@
 		}
 
 			#header h1 a {
-	border: 0;
-	display: block;
-	height: inherit;
-	line-height: inherit;
-	font-family: "微軟正黑體";
-	font-size: x-large;
+				border: 0;
+				display: block;
+				height: inherit;
+				line-height: inherit;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -3563,21 +3397,20 @@
 	}
 
 		#banner h2 {
-	-moz-transform: scale(1);
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-	-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-	-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-	transition: transform 0.5s ease, opacity 0.5s ease;
-	display: inline-block;
-	font-size: 1.75em;
-	opacity: 1;
-	padding: 0.35em 1em;
-	position: relative;
-	z-index: 1;
-	font-family: "微軟正黑體";
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;
+			display: inline-block;
+			font-size: 1.75em;
+			opacity: 1;
+			padding: 0.35em 1em;
+			position: relative;
+			z-index: 1;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3748,7 +3581,7 @@
 			-ms-order: 1;
 			order: 1;
 			padding-right: 3em;
-			width: 80%;
+			width: 70%;
 		}
 
 			#cta .inner header p {
@@ -3796,10 +3629,10 @@
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3946,10 +3779,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3967,10 +3800,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mr.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ws.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
