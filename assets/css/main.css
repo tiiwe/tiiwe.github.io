@@ -2670,11 +2670,15 @@
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
+	border-color: rgba(0, 0, 0, 0.125);
+	font-size: xx-large;
+	font-family: "微軟正黑體";
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c7ebe8;
+	color: #c7ebe8;
+	font-family: "微軟正黑體";
+	font-size: x-large;
 			}
 
 			.wrapper.style1 label {
